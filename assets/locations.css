@@ -12,6 +12,7 @@
     background: #fff;
     height: 746px;
     padding: 87px 36px 0 20px;
+    overflow: hidden;
 }
 
 .locations__banner__content h2 {
@@ -108,10 +109,11 @@
     text-align: center;
 }
 
-.award__winning{
-    background:#fff;
+.award__winning {
+    background: #fff;
     padding-top: 24px;
-    padding-bottom: 16px;;
+    padding-bottom: 16px;
+    ;
 }
 
 .award__inner {
@@ -120,4 +122,30 @@
 
 .footer__top {
     background-image: url("/components/Locations/images/footer1.jpg");
+}
+
+@media (max-width: 767.98px) {
+    .inner-bg {
+        width: 100%;
+    }
+
+    .locations__banner__inner {
+        flex-direction: column-reverse;
+    }
+
+    .locations__banner__content {
+        padding: 70px 20px 50px 20px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .locations__banner__tittle {
+        padding: 70px 20px 50px 20px;
+    }
+}
+
+@media (max-width: 599.98px) {
+    .inner-bg {
+        padding: 0;
+    }
 }
