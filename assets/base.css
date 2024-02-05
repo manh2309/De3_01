@@ -578,6 +578,7 @@ color: #115740;
 }
 /* banner__nav */
 .banner__nav {
+    width: fit-content;
     border-radius: 20px;
     background: #FFF;
     padding: 2px 10px;
