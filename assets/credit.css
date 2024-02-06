@@ -35,8 +35,8 @@
     height: 329px;
 }
 
-.credit__banner__right iframe{
-border-radius: 12px;
+.credit__banner__right iframe {
+    border-radius: 12px;
 }
 
 .credit__report {
@@ -99,7 +99,7 @@ border-radius: 12px;
     border-radius: 0px 65px 65px 10px;
     background: url(/components/Credit/images/report-right.jpg), linear-gradient(326deg, rgba(0, 0, 0, 0.45) 0%,
             rgba(255, 255, 255, 0.17) 100%),
-        url(<path-to-image>), 
+        url(<path-to-image>),
         lightgray 0% 0% / 100px 100px repeat;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.81);
 }
@@ -118,7 +118,8 @@ border-radius: 12px;
     height: 24px
 }
 
-.credit__report__link:hover i, a{
+.credit__report__link:hover i,
+a {
     color: #E6E2DB;
     font-size: 16px;
     transition: all 0.3s ease-in-out;
@@ -166,19 +167,20 @@ border-radius: 12px;
     margin-bottom: 18px;
 }
 
+.credit__review__btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
 .credit__review__main button {
-    margin-right: 27px;
     padding: 15px 0px;
-    width: 278.5px;
+    width: 100%;
     background: #FFA600;
     border-radius: 24px;
     color: #000000;
     font-size: 14px;
     font-weight: 600;
-}
-
-.credit__review__main button:last-of-type {
-    margin-right: 0;
 }
 
 .credit__review__image {
@@ -225,20 +227,20 @@ border-radius: 12px;
     width: 47%;
 }
 
-    .credit__main__list__item p {
-        width: fit-content;
-        border-radius: 0px 10px;
-        background: #84BD00;
-        padding: 1px 15px 1px 15px;
-        color: #3F4444;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        margin-bottom: 10px;
-    }
+.credit__main__list__item p {
+    width: fit-content;
+    border-radius: 0px 10px;
+    background: #84BD00;
+    padding: 1px 15px 1px 15px;
+    color: #3F4444;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
 
-.credit__main__list__item__link a{
+.credit__main__list__item__link a {
     margin-bottom: 3px;
     margin-left: 22px;
     color: #3F4444;
@@ -261,7 +263,8 @@ border-radius: 12px;
 
 .credit__main__right {
     flex: 1;
-    height: fit-content;;
+    height: fit-content;
+    ;
     border-radius: 6px;
     border: 1px solid #ECEBEA;
     background: #FFF;
@@ -390,7 +393,7 @@ border-radius: 12px;
     color: #fff;
 }
 
-.footer__top{
+.footer__top {
     background-image: url("/components/Credit/images/footer1.jpg");
 }
 
@@ -399,24 +402,26 @@ border-radius: 12px;
         width: 100%;
     }
 
-    .inner-sm{
+    .inner-sm {
         width: 100%;
-        padding: 0 22px;    
+        padding: 0 22px;
     }
 
-    .credit__banner__inner{
+    .credit__banner__inner {
         padding: 50px 22px 50px 22px;
         display: inherit;
     }
+
     .credit__banner__left {
         width: 100%;
     }
-    .credit__banner__right{
+
+    .credit__banner__right {
         width: 100%;
         height: 389px;
     }
 
-    .credit__report{
+    .credit__report {
         padding: 50px 0;
     }
 
@@ -425,43 +430,45 @@ border-radius: 12px;
         display: inherit;
         padding: 0;
     }
+
     .credit__report__left {
         width: 100%;
         border-radius: 12px 12px 0 0;
         padding: 30px 30px 40px 30px;
     }
+
     .credit__report__content {
         gap: 40px;
         grid-template-columns: 1fr;
     }
+
     .credit__report__right {
         padding: 30px 20px 30px 50px;
         border-radius: 0 0 12px 12px;
     }
+
     .credit__review__main {
         padding: 0 22px;
     }
 
-    .credit__review__main button {
-        margin: 12px;
-        width: 45%;
+    .credit__review__btn {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .credit__review__main button:last-of-type {
-        margin-right: 12px;
-    }
-
-    .credit__review__image{
+    .credit__review__image {
         left: 5%;
     }
+
     .credit__repair__main {
         display: inherit;
         padding: 60px 22px 190px 22px;
     }
+
     .credit__main__left {
         width: 100%;
     }
-    .credit__main__list{
+
+    .credit__main__list {
         display: inherit;
     }
 
@@ -479,6 +486,7 @@ border-radius: 12px;
         height: auto;
         display: inherit;
     }
+
     .credit__resources__item {
         margin-right: 0;
         margin-bottom: 15px;
@@ -489,5 +497,9 @@ border-radius: 12px;
 @media (max-width: 599.98px) {
     .inner-bg {
         padding: 0;
+    }
+
+    .credit__review__btn {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
