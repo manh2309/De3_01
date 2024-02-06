@@ -663,12 +663,12 @@
         height: 400px;
     }
 
-    .about__history {
-        padding-left: 20px;
-        padding-right: 20px;
+    .about__section {
+        padding: 20px 20px 0 20px;
     }
 
-    .about__history h2 , .about__history span {
+    .about__history h2,
+    .about__history span {
         font-size: 50px;
         margin-bottom: 20px;
     }
@@ -697,11 +697,121 @@
 @media (max-width: 767.98px) {
     .inner-bg {
         width: 100%;
-        padding: 0 15px;
     }
 
     .inner-sm {
         width: 100%;
         padding: 0 10px;
+    }
+
+    .about__banner__inner {
+        gap: 0;
+    }
+
+    .about__banner__left button {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about__banner__left__link {
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about__banner__right {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about__awards {
+        padding: 0;
+    }
+
+    .about__awards__inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about__awards__list {
+        gap: 25px;
+    }
+
+    .about__section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about__serving__header h2 {
+        width: 400px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about__serving__header p {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .about__service {
+        padding: 0;
+    }
+
+    .about__service__top__img {
+        width: 100%;
+    }
+
+    .about__service__top__content {
+        width: inherit;
+    }
+
+    .about__service__bot__item {
+        width: 45%;
+    }
+
+    .about__youtube__list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__history h2,
+    .about__history span {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about__history__content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about__history__content__left {
+        width: 100%;
+    }
+
+    .about__history__content__right {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .about__history__content__button {
+        text-align: center;
+        border-radius: 200px;
+    }
+
+    .about__careers {
+        background-size: cover;
+        padding: 50px 0 50px 0;
+    }
+
+    .about__careers__inner {
+        width: auto;
+    }
+
+    .about__careers__title {
+        font-size: 40px;
     }
 }
