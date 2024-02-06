@@ -55,6 +55,7 @@
     width: 485px;
     height: 460px;
 }
+
 /* end about__banner */
 
 /* about__awards */
@@ -105,6 +106,7 @@
     padding: 0 50px;
     width: 200px;
 }
+
 /* end about__awards */
 
 /* about__serving */
@@ -378,6 +380,7 @@
     letter-spacing: 1.2px;
     text-transform: uppercase;
 }
+
 /* end about__service */
 
 /* about__youtube */
@@ -431,6 +434,7 @@
     font-size: 12px;
     line-height: 14px;
 }
+
 /* end about__youtube */
 
 /* about__history */
@@ -559,4 +563,145 @@
     font-weight: 600;
     line-height: 20px;
 }
+
 /* end about__careers */
+
+@media (max-width: 1199.98px) {
+    .inner-bg {
+        width: 100%;
+    }
+
+    .inner-sm {
+        width: 100%;
+    }
+
+    .about__banner__inner {
+        width: fit-content;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 0 50px 0;
+        margin: 0 auto;
+    }
+
+    .about__banner__left {
+        width: 80%;
+        padding-right: 0;
+    }
+
+    .about__banner__left h1 {
+        font-size: 50px;
+    }
+
+    .about__banner__left p {
+        font-size: 14px;
+    }
+
+    .about__banner__right {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about__awards {
+        padding: 0 20px 0 20px;
+    }
+
+    .about__awards__list {
+        gap: 50px;
+    }
+
+    .about__awards__item {
+        padding: inherit;
+        width: 80px;
+    }
+
+    .about__serving__header h2 {
+        width: 500px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about__serving__header p {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .about__serving__items {
+        width: 250px;
+    }
+
+    .about__service {
+        margin-bottom: 50px;
+    }
+
+    .about__service__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__service__bot {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .about__service__bot__item {
+        width: 30%;
+    }
+
+    .about__youtube {
+        padding: 0 20px;
+    }
+
+    .about__youtube__video {
+        height: 400px;
+    }
+
+    .about__youtube__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__youtube__items__image {
+        height: 400px;
+    }
+
+    .about__history {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about__history h2 , .about__history span {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .about__history__content__left {
+        width: 40%;
+    }
+
+    .about__history__content__right {
+        height: auto;
+    }
+
+    .about__history__content__right p {
+        width: 100%;
+    }
+
+    .about__careers {
+        background-position: center;
+    }
+
+    .about__careers__inner {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .inner-bg {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .inner-sm {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
