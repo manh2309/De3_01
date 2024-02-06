@@ -71,7 +71,7 @@
 .newroom__media {
     padding-top: 152px;
     padding-bottom: 19px;
-    background: #fff;
+    
 }
 
 .newroom__media__inner {
@@ -101,7 +101,7 @@
     margin-bottom: 20px;
 }
 
-.newroom__media__title {
+.newroom__media__tittle {
     background: #fff;
     color: #283E39;
     font-size: 11px;
@@ -111,13 +111,15 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: transalateY (-50%);
+    transform: translateY(-50%);
 }
 
 .newroom__media__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px 60px;
+    position: relative;
+    z-index: 0;
 
 }
 
@@ -127,7 +129,7 @@
     border: 2px solid #115740;
     border-radius: 12px;
     position: relative;
-    background-color: #DFDFDF;
+    background-color: #fff;
 }
 
 
@@ -141,17 +143,17 @@
     top: 10px;
     left: 10px;
     z-index: -1;
-}
 
-.newroom__media__item:hover .newroom__media__image {
-    z-index: 3;
+}
+.newroom__media__item:hover .newroom__media__user {
+    z-index: 0;
 }
 
 .newroom__media__user {
     position: absolute;
     top: -22px;
     left: -21px;
-    z-index: -1;
+    z-index:-1;
 }
 
 .newroom__media__image {
@@ -169,7 +171,7 @@
     background: #115740;
     color: #FFFFFF;
     font-size: 12px;
-    z-index: 0;
+    z-index: -1;
 }
 
 .newroom__media__box h4 {
@@ -180,10 +182,6 @@
     font-weight: 700;
     color: #115740;
     margin-bottom: 5px;
-}
-.newroom__media__box{
-
-   
 }
 
 .newroom__media__box__date {
@@ -222,6 +220,7 @@
 
 .newroom__media__button {
     color: #fff;
+    display: block;
     padding: 15px 31px;
     background: #0F6B4B;
     font-size: 14px;
@@ -238,8 +237,8 @@
 
 
 .newroom__confidential {
+    margin-bottom: 104px;
     background-image: url();
-    padding-top: 24px;
 }
 .newroom__confidential__inner{
     display: flex;
@@ -251,7 +250,7 @@
     flex:1;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 60.5px;
+    padding-top: 60px;
     gap: 31px;
     display: flex;
     flex-direction: column;
