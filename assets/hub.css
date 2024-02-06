@@ -424,4 +424,13 @@
     .hub__banner__inner {
         padding: 15px 41px 50px;
     }
+
+    .hub__confidential__right {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .recent__articles__img {
+        height: auto;
+    }
 }
