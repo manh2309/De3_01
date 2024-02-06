@@ -307,6 +307,7 @@ color: #115740;
 }
 /* recent__video */
 .recent__video{
+    height: 773px;
     width: 63%;
     border-radius: 12px 12px 0px 0px;
     background: #FFF;
@@ -352,7 +353,7 @@ color: #115740;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(40%, -50%);
     color: #FFF;
     font-size: 12px;
     font-weight: 600;
@@ -409,8 +410,8 @@ color: #115740;
     height: 210px;
 }
 .recent__articles__img img{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .recent__articles__content{
     padding: 20px 36px 26px 36px;
