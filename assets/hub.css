@@ -105,7 +105,7 @@
 }
 
 .hub__confidential__right {
-    margin-top: 19.5px;
+    /* margin-top: 19.5px; */
     width: 37%;
     position: relative;
     border-top: 1px solid #0000001A;
@@ -161,11 +161,12 @@
 }
 
 .hub__process__content {
-
     padding: 80px 30px 80px 67px;
     border-radius: 60px 15px;
     background: url(/components/Hub/images/bg__hub__process__inner.png), lightgray 0% 0% / 100px 100px repeat;
     display: flex;
+    background-repeat: no-repeat;
+    background-position: center top -8px;
     align-items: center;
 }
 
@@ -206,7 +207,7 @@
     border-radius: 200px;
     background: #FF8200;
     color: #FFF;
-
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
@@ -228,7 +229,7 @@
 .hub__additional__frame__text {
     top: 0;
     left: 0;
-    transform: translateY(-50%);
+    transform: translateY(-51%);
     position: absolute;
     font-weight: 700;
     font-size: 11px;
@@ -257,7 +258,7 @@
 .hub__additional__seach input::placeholder {
     font-size: 18px;
     font-weight: 600;
-    color: #283E39;
+    color: rgba(40, 62, 57, 0.50);
 }
 
 .hub__additional__seach a {
@@ -288,7 +289,7 @@
 
 .hub__additional__box__title {
     padding-left: 15px;
-    border-left: 2px solid #84BD00;
+    border-left: 5px solid #84BD00;
     width: 508px;
     margin-bottom: 7px;
     font-size: 22.4px;
@@ -315,7 +316,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 0px 16px 5px 11px;
+    line-height: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .hub__additional__box__node strong {
@@ -334,7 +337,7 @@
 }
 
 .hub__additional__content button {
-    padding: 19px 36px;
+    padding: 15px 36px;
     border: 1px solid #CCCCCC;
     border-radius: 200px;
     background: #FAFAFA;
