@@ -583,6 +583,10 @@ body {
     line-height: 20px;
 }
 
+.top__icon {
+    text-align: center;
+}
+
 /* end about__careers */
 
 @media (max-width: 1199.98px) {
