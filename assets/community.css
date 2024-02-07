@@ -1,0 +1,428 @@
+/* community__banner */
+.community__banner {
+    background-image: url(../components/Community/images/bg.png);
+    width: 100%;
+    height: 422px;
+    padding: 132px 0;
+}
+
+.community__banner__image {
+    width: 575px;
+    height: 158.125px;
+    margin: 0 auto;
+}
+
+/* community__people */
+.community__people {
+    background: #fff;
+}
+
+.community__people__inner {
+    background: #fff;
+    position: relative;
+    bottom: 21px;
+    border-radius: 25px;
+    padding: 78px 0 31px 45px;
+}
+
+.community__people__content {
+    width: 45%;
+
+}
+
+.community__people__heading {
+    color: #283E39;
+    font-size: 33.6px;
+    font-weight: 700;
+    line-height: 35.2px;
+    margin-bottom: 24px;
+
+}
+
+.community__people__desc {
+    color: #283E39;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.community__people__image {
+    width: 45%;
+    aspect-ratio: 572.5/312.38;
+    border-radius: 10px 10px 10px 175px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+/* community__said */
+.community__said {
+    background: #E4EEE7B2;
+    padding: 109px 0 84px 0;
+}
+
+.community__said__inner {
+    width: 764px;
+    margin: 0 auto;
+    padding-left: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community__said__avt {
+    width: 168px;
+    height: 168px;
+}
+
+.community__said__content {
+    color: #283E39;
+    width: 472px;
+}
+
+.community__said__content p {
+    font-size: 28px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+
+.community__said__content span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* community__milwaukee */
+.community__milwaukee__top {
+    position: relative;
+    height: 670px;
+}
+
+.community__milwaukee__inner {
+    position: absolute;
+    top: 61px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 2px solid #0F6B4B;
+    padding-top: 25px;
+}
+
+.community__milwaukee__inner__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: translateY(-50%);
+    font-size: 22px;
+    line-height: 24px;
+    color: #283E39;
+    padding-right: 15px;
+}
+
+.community__milwaukee__content {
+    border-radius: 18px;
+}
+
+.community__milwaukee__image {
+    width: 786px;
+    height: 430px;
+    position: relative;
+}
+
+.community__milwaukee__image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.community__milwaukee__center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.community__milwaukee__card {
+    padding: 56px 45px 72px 45px;
+    background-color: #fff;
+    color: #283E39;
+}
+
+.community__milwaukee__card h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 35px;
+    width: 633px;
+    margin-bottom: 19px;
+}
+
+.community__milwaukee__card p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 687px;
+}
+
+.community__milwaukee__card a {
+    color: #0F6B4B;
+}
+
+.community__milwaukee__btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #84BD00;
+    position: absolute;
+    top: 50%;
+    line-height: 45px;
+    text-align: center;
+    border: 0;
+}
+
+.community__milwaukee__btn--left {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.community__milwaukee__btn--right {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.community__milwaukee__btn i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.community__milwaukee__bot {
+    background: #EFEDE8;
+    height: 287px;
+}
+
+/* community__phoenix */
+.community__phoenix {
+    background: url(/components/Community/images/bg__phonix.png);
+    padding: 82px 0 110px 0;
+    background-repeat: no-repeat;
+}
+
+.community__phoenix__inner {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.community__phoenix__content {
+    margin-top: 26px;
+    width: 571px;
+    color: #FFF;
+}
+
+.community__phoenix__content h2 {
+    font-size: 29px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+.community__phoenix__content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+
+.community__phoenix__content button {
+    padding: 15px 34px 15px 30px;
+    color: #FFF;
+    border-radius: 200px;
+    border: 0;
+    background: #0F6B4B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.community__phoenix__ytb {
+    width: 575px;
+    height: 323px;
+    border-radius: 12px;
+}
+
+/* community__box */
+.community__box {
+    display: flex;
+}
+
+.community__box__item {
+    width: 50%;
+    min-height: 500px;
+    padding-top: 4px;
+}
+
+.community__box__item--left {
+
+    background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
+    background-image: url(/components/Community/images/bg__box1.jpg);
+    background-color: lightgray;
+    background-position: 0px -70.086px;
+    background-size: 100% 128.19%;
+    background-repeat: no-repeat;
+    background-color: #FAF8F4;
+}
+
+.community__box__item--right {
+    background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
+    background-image: url(/components/Community/images/bg__box2.jpg);
+    background-color: lightgray;
+    background-position: 0px -70.086px;
+    background-size: 100% 128.19%;
+    background-repeat: no-repeat;
+    background-color: #FAF8F4;
+}
+
+.community__box__item__inner {
+    width: 568px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.community__box__item__image {
+    width: 375px;
+    margin-bottom: 68px;
+    margin: 68px auto;
+}
+
+.community__box__item__desc {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 27px;
+}
+
+.community__box__item__button {
+    width: 100%;
+    padding: 15px 0px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 200px;
+}
+
+.community__box__item__button--red {
+    background: #C42828;
+}
+
+.community__box__item__button--green {
+    border: 2px solid #84BD00;
+    background: rgba(228, 238, 231, 0.20);
+}
+
+/* Máy tính bảng:  */
+@media(max-width: 767.98px) {
+    .community__milwaukee__inner {
+        width: 80%;
+    }
+
+    .community__milwaukee__image {
+        width: 100%;
+    }
+
+    .community__milwaukee__card h2 {
+        width: 100%;
+    }
+
+    .community__milwaukee__card p {
+        width: 100%;
+    }
+
+    .community__people__inner {
+        background: #fff;
+        position: relative;
+        bottom: 21px;
+        border-radius: 25px;
+        padding: 31px 0 31px 45px;
+    }
+
+    .community__people__heading {
+        font-size: 23.6px;
+        line-height: 27.6px;
+    }
+
+    .community__people__desc {
+        display: none;
+    }
+
+    .community__phoenix {
+        background-repeat: repeat-y;
+    }
+
+    .community__phoenix__inner {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .community__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .community__box__item {
+        width: 100%;
+    }
+
+}
+
+/* Điện thoại di động:  */
+@media(max-width: 599.98px) {
+    .community__banner__image {
+        width: 70%;
+        height: auto;
+    }
+
+    .community__people__image {
+        top: -5%;
+        right: 0%;
+    }
+
+    .community__phoenix__inner {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .community__phoenix__ytb {
+        width: 80%;
+    }
+
+    .community__said__inner {
+        width: 100%;
+        padding-left: 0px;
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .community__milwaukee__image {
+        height: auto;
+    }
+
+    .community__milwaukee__btn {
+        top: 33%;
+    }
+}
