@@ -105,7 +105,7 @@
 }
 
 .hub__confidential__right {
-    margin-top: 19.5px;
+    /* margin-top: 19.5px; */
     width: 37%;
     position: relative;
     border-top: 1px solid #0000001A;
@@ -161,11 +161,12 @@
 }
 
 .hub__process__content {
-
     padding: 80px 30px 80px 67px;
     border-radius: 60px 15px;
     background: url(/components/Hub/images/bg__hub__process__inner.png), lightgray 0% 0% / 100px 100px repeat;
     display: flex;
+    background-repeat: no-repeat;
+    background-position: center top -8px;
     align-items: center;
 }
 
@@ -206,7 +207,7 @@
     border-radius: 200px;
     background: #FF8200;
     color: #FFF;
-
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 32px;
