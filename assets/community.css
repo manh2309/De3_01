@@ -26,7 +26,7 @@
 }
 
 .community__people__content {
-    width: 45%;
+    width: 47%;
 
 }
 
@@ -53,7 +53,7 @@
     aspect-ratio: 572.5/312.38;
     border-radius: 10px 10px 10px 175px;
     position: absolute;
-    top: -15px;
+    top: -13px;
     right: -15px;
 }
 
@@ -86,6 +86,7 @@
     font-size: 28px;
     font-style: italic;
     line-height: 40px;
+    font-weight: 300;
     margin-bottom: 18px;
 }
 
@@ -154,9 +155,9 @@
 }
 
 .community__milwaukee__card h2 {
-    font-size: 34px;
+    font-size: 33.6px;
     font-weight: 700;
-    line-height: 35px;
+    line-height: 35.2px;
     width: 633px;
     margin-bottom: 19px;
 }
@@ -170,6 +171,10 @@
 
 .community__milwaukee__card a {
     color: #0F6B4B;
+    font-size: 22.4px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
 }
 
 .community__milwaukee__btn {
@@ -178,7 +183,7 @@
     border-radius: 50%;
     background: #84BD00;
     position: absolute;
-    top: 50%;
+    top: 53%;
     line-height: 45px;
     text-align: center;
     border: 0;
@@ -220,7 +225,7 @@
 
 .community__phoenix__content {
     margin-top: 26px;
-    width: 571px;
+    width: 571.5px;
     color: #FFF;
 }
 
@@ -254,6 +259,10 @@
     width: 575px;
     height: 323px;
     border-radius: 12px;
+}
+
+.community__phoenix__ytb iframe {
+    border-radius: 10px;
 }
 
 /* community__box */
@@ -296,8 +305,14 @@
 
 .community__box__item__image {
     width: 375px;
-    margin-bottom: 68px;
-    margin: 68px auto;
+}
+
+.item1 {
+    margin: 72px 68px 68px 70.53px;
+}
+
+.item2 {
+    margin: 72px 68px 68px 12.53px;
 }
 
 .community__box__item__desc {
@@ -325,6 +340,8 @@
 .community__box__item__button--green {
     border: 2px solid #84BD00;
     background: rgba(228, 238, 231, 0.20);
+    position: relative;
+    left: -60px;
 }
 
 /* Máy tính bảng:  */
@@ -348,7 +365,7 @@
     .community__people__inner {
         background: #fff;
         position: relative;
-        bottom: 21px;
+        bottom: 25px;
         border-radius: 25px;
         padding: 31px 0 31px 45px;
     }
