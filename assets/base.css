@@ -197,7 +197,7 @@ img {
 /* footer top*/
 .footer__top {
     padding: 65px 0 60px 0;
-    background-image: url("/images/footer1.jpg");
+    background-image: url("/components/Common/images/footer1.jpg");
 }
 
 .footer__inner {
@@ -669,7 +669,7 @@ img {
 
 /* keep__playing */
 .keep__playing {
-    background: url("/components/Newroom/images/playing__back.png");
+    background: url("/components/Common/images/bgr_playing.png");
 }
 
 .keep__playing__inner {
@@ -783,8 +783,7 @@ img {
 }
 
 .award__inner {
-    background: url("/components/Newroom/images/banner___1.jpg");
-    background-size: cover;
+    background: url("/components/Common/images/img_winning.jpg");
     padding: 23px 0 10px 48px;
     position: relative;
     height: 250px;
