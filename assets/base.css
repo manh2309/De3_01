@@ -889,7 +889,10 @@ color: #115740;
     border-right: none;
     padding-right: 6px;
 }
-    
+.banner__nav__item:last-child a {
+    color: #84BD00;
+    text-decoration-line: underline;
+}    
 .banner__nav__item a:hover{
     color: #84BD00;
     text-decoration-line: underline;
