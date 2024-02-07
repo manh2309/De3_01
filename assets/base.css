@@ -172,7 +172,7 @@ color: #115740;
 /* footer top*/
 .footer__top{
     padding: 65px 0 60px 0;
-    background-image: url("/images/footer1.jpg");
+    background-image: url("/components/Common/images/footer1.jpg");
 }
 .footer__inner{
     position: relative;
@@ -581,7 +581,7 @@ color: #115740;
 }
 /* keep__playing */
 .keep__playing{
-    background: url("/images/bgr_playing.png");
+    background: url("/components/Common/images/bgr_playing.png");
 }
 .keep__playing__inner{
    display: grid;
@@ -678,7 +678,7 @@ color: #115740;
     padding-bottom:75.5px;
 }
 .award__inner{
-    background:url("/images/img_winning.jpg");
+    background:url("/components/Common/images/img_winning.jpg");
     padding:23px 0 10px 48px;
     position:relative;
     height: 250px;
