@@ -172,7 +172,7 @@ color: #115740;
 /* footer top*/
 .footer__top{
     padding: 65px 0 60px 0;
-    background-image: url("/images/footer1.jpg");
+    background-image: url("/components/Common/images/footer1.jpg");
 }
 .footer__inner{
     position: relative;
@@ -237,7 +237,6 @@ color: #115740;
 }
 .footer__phone{
     font-size: 14px;
-    font-weight: 700;
     line-height: 18px;
     padding-left: 15px;
 }
@@ -414,7 +413,7 @@ color: #115740;
     border-radius: 12px 12px 0px 0px;
     background: #FFF;
     box-shadow: 0px 12px 36px -8px rgba(0, 0, 0, 0.10);
-    padding: 0px 36px 36px 36px;
+    padding: 19.5px 36px 36px 36px;
 }
 .recent__video__inner{
     border-top: 1px solid #0000001a;
@@ -545,12 +544,12 @@ color: #115740;
     border-top-right-radius: 10px;
 }
 .recent__articles__content{
-    padding: 20px 36px 26px 36px;
+    padding: 40px 36px 26px 36px;
 }
 .recent__articles__content h3{
     border-left: 5px solid #84BD00;
     padding-left: 15px;
-    margin-bottom: 9px;
+    margin-bottom: 25px;
     color: #115740;
     font-size: 22.4px;
     font-weight: 600;
@@ -582,7 +581,7 @@ color: #115740;
 }
 /* keep__playing */
 .keep__playing{
-    background: url("/components/Newroom/images/playing__back.png");
+    background: url("/components/Common/images/bgr_playing.png");
 }
 .keep__playing__inner{
    display: grid;
@@ -679,8 +678,7 @@ color: #115740;
     padding-bottom:75.5px;
 }
 .award__inner{
-    background:url("/components/Newroom/images/banner___1.jpg");
-    background-size: cover;
+    background:url("/components/Common/images/img_winning.jpg");
     padding:23px 0 10px 48px;
     position:relative;
     height: 250px;
@@ -797,6 +795,7 @@ color: #115740;
     
 /* top */
 .top{
+    padding-bottom: 4px;
     position: fixed;
     bottom: 20vh;
     right: 14px;
@@ -815,12 +814,15 @@ color: #115740;
     font-size: 12px;
 }
 .top p{
+    margin-left: 3px;
+    text-align: center;
     color: #283E39;
     font-size: 10px;
     font-weight: 800;
     letter-spacing: 1.2px;
     text-decoration-line: underline;
 }
+
 
 @media (max-width: 767.98px) {
     .inner-bg {
@@ -840,6 +842,7 @@ color: #115740;
         font-size: 8px;
     }
     .top p{
+        margin-left: 2px;
         font-size: 7px;
     }
 }
