@@ -273,7 +273,6 @@ img {
 
 .footer__phone {
     font-size: 14px;
-    font-weight: 700;
     line-height: 18px;
     padding-left: 15px;
 }
@@ -478,7 +477,7 @@ img {
     border-radius: 12px 12px 0px 0px;
     background: #FFF;
     box-shadow: 0px 12px 36px -8px rgba(0, 0, 0, 0.10);
-    padding: 0px 36px 36px 36px;
+    padding: 19.5px 36px 36px 36px;
 }
 
 .recent__video__inner {
@@ -628,13 +627,13 @@ img {
 }
 
 .recent__articles__content {
-    padding: 20px 36px 26px 36px;
+    padding: 40px 36px 26px 36px;
 }
 
 .recent__articles__content h3 {
     border-left: 5px solid #84BD00;
-    padding-left: 15px;
-    margin-bottom: 9px;
+    padding-left: 25px;
+    margin-bottom: 25px;
     color: #115740;
     font-size: 22.4px;
     font-weight: 600;
@@ -947,6 +946,7 @@ img {
     letter-spacing: 1.2px;
     text-decoration-line: underline;
 }
+
 
 @media (max-width: 767.98px) {
     .inner-bg {
