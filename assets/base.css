@@ -414,7 +414,7 @@ color: #115740;
     border-radius: 12px 12px 0px 0px;
     background: #FFF;
     box-shadow: 0px 12px 36px -8px rgba(0, 0, 0, 0.10);
-    padding: 19.5px 36px 36px 36px;
+    padding: 0px 36px 36px 36px;
 }
 .recent__video__inner{
     border-top: 1px solid #0000001a;
@@ -582,7 +582,7 @@ color: #115740;
 }
 /* keep__playing */
 .keep__playing{
-    background: url("/images/bgr_playing.png");
+    background: url("/components/Newroom/images/playing__back.png");
 }
 .keep__playing__inner{
    display: grid;
@@ -679,7 +679,8 @@ color: #115740;
     padding-bottom:75.5px;
 }
 .award__inner{
-    background:url("/images/img_winning.jpg");
+    background:url("/components/Newroom/images/banner___1.jpg");
+    background-size: cover;
     padding:23px 0 10px 48px;
     position:relative;
     height: 250px;
