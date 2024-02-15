@@ -235,6 +235,7 @@
     font-size: 11px;
     line-height: 15px;
     color: #0F6B4B;
+    text-transform: uppercase;
     background: #fff;
 }
 
@@ -245,7 +246,7 @@
 }
 
 .hub__additional__seach input {
-    padding: 9px 657px 9px 22px;
+    padding: 9px 22px 9px 22px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     margin-right: 10px;
@@ -253,6 +254,7 @@
     font-weight: 600;
     color: #283E39;
     flex: 1;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hub__additional__seach input::placeholder {
