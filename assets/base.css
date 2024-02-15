@@ -114,7 +114,11 @@ img {
 }
 
 .header__button {
+<<<<<<< HEAD
     padding: 16px 36px;
+=======
+    padding: 15px 32px;
+>>>>>>> d3d892278b837eb0b2fa1e8de63b46725eac2777
     border-radius: 200px;
     background: #FF8200;
     color: #FFF;
@@ -672,7 +676,11 @@ img {
     .inner-sm{
         width: 100%;
       }
+<<<<<<< HEAD
     .recent__articles__img {
+=======
+      .recent__articles__img {
+>>>>>>> d3d892278b837eb0b2fa1e8de63b46725eac2777
         height: auto;
     }
     .recent__articles__content h3 {
@@ -741,10 +749,13 @@ img {
 
 .keep__playing__video {
     height: 323px;
+<<<<<<< HEAD
    
 }
 .keep__playing__video__iframe{
     border-radius: 12px;
+=======
+>>>>>>> d3d892278b837eb0b2fa1e8de63b46725eac2777
 }
 
 
