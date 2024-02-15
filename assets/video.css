@@ -88,7 +88,7 @@
 }
 
 .video__search__input {
-    padding: 21px 0 21px 28px;
+    padding: 21px 240px 21px 28px;
     width: 100%;
     border-radius: 60px;
     border: 1px solid #CACACA;
@@ -227,6 +227,7 @@
     color: #3F4444;
     line-height: 22px;
     margin-bottom: 16px;
+    font-size: 16px;
 }
 
 .video__content__tittle__item {
