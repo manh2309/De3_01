@@ -114,7 +114,7 @@ img {
 }
 
 .header__button {
-    padding: 15px 32px;
+    padding: 16px 36px;
     border-radius: 200px;
     background: #FF8200;
     color: #FFF;
@@ -153,7 +153,8 @@ img {
 
 .header__menu__icon i {
     color: #000;
-    font-size: 23px;
+    font-size: 21px;
+    margin-bottom: 8px;
 }
 
 .header__menu p {
@@ -265,10 +266,10 @@ img {
 
 .footer__header {
     font-family: Inter;
-    padding: 2px 0 3px 15px;
+    padding: 2px 0 3px 10px;
     border-left: 5px solid #84BD00;
     margin-bottom: 5px;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 .footer__phone {
@@ -671,7 +672,7 @@ img {
     .inner-sm{
         width: 100%;
       }
-      .recent__articles__img {
+    .recent__articles__img {
         height: auto;
     }
     .recent__articles__content h3 {
@@ -740,6 +741,10 @@ img {
 
 .keep__playing__video {
     height: 323px;
+   
+}
+.keep__playing__video__iframe{
+    border-radius: 12px;
 }
 
 
