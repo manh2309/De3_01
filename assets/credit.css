@@ -9,7 +9,7 @@
 }
 
 .credit__banner__left {
-    width: 580px;
+    width: 585px;
 }
 
 .credit__banner__left h1 {
@@ -56,6 +56,7 @@
     background: linear-gradient(270deg, #DDD 0%, #F3F3F3 100%);
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.47);
     padding: 32px 52px 67px 52px;
+    margin-bottom: 28.66px;
 }
 
 .credit__report__video {
@@ -163,6 +164,7 @@ a {
 
 .credit__review__main p {
     font-weight: 500;
+    text-align: left;
     line-height: 24px;
     margin-bottom: 18px;
 }
@@ -188,7 +190,7 @@ a {
     height: 108px;
     position: absolute;
     bottom: -10%;
-    left: 13%;
+    left: 17.5%;
 }
 
 .credit__repair {
@@ -341,6 +343,7 @@ a {
 
 .credit__resources__content {
     padding: 40px;
+    flex: 1;
     display: flex;
     height: 658px;
     flex-direction: column;
@@ -358,7 +361,7 @@ a {
 .credit__resources__item {
     margin-bottom: 15px;
     margin-right: 32px;
-    width: 47%;
+    width: 45%;
 }
 
 .credit__resources__text {
@@ -435,6 +438,7 @@ a {
         width: 100%;
         border-radius: 12px 12px 0 0;
         padding: 30px 30px 40px 30px;
+        margin-bottom: 0;
     }
 
     .credit__report__content {
