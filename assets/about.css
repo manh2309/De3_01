@@ -524,7 +524,8 @@ body {
 
 .about__history__content__right {
     width: 75%;
-    height: 200px;
+    /* height: 200px; */
+    height: fit-content;
     border-radius: 12px;
     background: #FFF;
     box-shadow: 1px 1px 6px -3px #000;
@@ -532,7 +533,8 @@ body {
 }
 
 .about__history__content__right p {
-    width: 58%;
+    /* width: 58%; */
+    width: 506.95px;
     color: #283E39;
     font-family: "Open Sans";
     font-size: 22.4px;
