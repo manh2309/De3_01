@@ -1,12 +1,12 @@
 
 .products__banner {
-    background-image: url(/components/Product/images/banner___1.jpg);
+    background-image: url(/components/Hub/images/bg.png);
     background-size: cover;
 }
 
 .products__banner__inner {
     padding: 115px 0 141px 30px;
-    width: 53%;
+    width: 57%;
     color: #fff;
 }
 
@@ -156,5 +156,5 @@
     h4 { font-size: 12px; }
     h5 { font-size: 10px; }
     h6 { font-size: 8px; }
-    p {font-size: 10px;}
+    p { font-size: 10px; }
 }
