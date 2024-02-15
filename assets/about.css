@@ -177,6 +177,10 @@ body {
     text-align: center;
 }
 
+.about__serving__items:last-child > .about__serving__date {
+    display: none;
+}
+
 .about__serving__circle {
     border-radius: 50%;
     border: 1px solid #0F6B4B;
