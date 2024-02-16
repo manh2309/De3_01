@@ -1,0 +1,534 @@
+.newroom__banner {
+    background-image: url(/components/Newroom/images/banner__back.jpg);
+    height: 593px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}   
+
+.newroom__banner__inner {
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.newroom__banner__text {
+    padding: 160px 95px 160px 72px;
+
+}
+
+.newroom__banner__text h1 {
+    color: #283E39;
+    font-family: Montserrat;
+    font-size: 73.6px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    margin-bottom: 7px;
+}
+
+.newroom__banner__text h3 {
+    color: #283E39;
+    font-family: Montserrat;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30.4px;
+    margin-bottom: 23px;
+}
+
+.newroom__banner__text p {
+    color: #283E39;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 659.25px;
+}
+
+.newroom__banner__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newroom__banner__img__item {
+    width: 350px;
+    height: 463.41px;
+}
+
+.newroom__banner__img p {
+    color: #283E39;
+    font-family: Montserrat;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 396px;
+   
+}
+
+.newroom__banner__img a {
+    color: #0F6B4B;
+}
+
+.newroom__media {
+    padding-top: 152px;
+    padding-bottom: 19px;
+    
+}
+
+.newroom__media__inner {
+    padding: 79px 0 0 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    position: relative;
+}
+
+.newroom__media__inner h2 {
+    padding: 0 16px 0 15px;
+    border-left: 5px solid #84BD00;
+    background: #fff;
+    color: #283E39;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 43.2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.newroom__media__content {
+    padding-top: 77px;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.newroom__media__tittle {
+    background: #fff;
+    color: #283E39;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15.4px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.newroom__media__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 60px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.newroom__media__item {
+    height: 303px;
+    padding: 21px 17px 0 17px;
+    border: 2px solid #115740;
+    border-radius: 12px;
+    position: relative;
+    background-color: #fff;
+}
+
+
+.newroom__media__item::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 2px solid #84BD00;
+    border-radius: 8px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: -1;
+
+}
+.newroom__media__item:hover .newroom__media__user {
+    z-index: 0;
+}
+
+.newroom__media__user {
+    position: absolute;
+    top: -22px;
+    left: -21px;
+    z-index:-1;
+}
+
+.newroom__media__image {
+    width: 75px;
+    height: 75px;
+    
+    border: 1px solid #E2E2E2;
+}
+.newroom__media__image img{
+    border-radius: 10px;
+}
+
+.newroom__media__user p {
+    position: absolute;
+    top: 0;
+    left: 61px;
+    padding: 4px 10px 4px 25px;
+    background: #115740;
+    color: #FFFFFF;
+    font-size: 12px;
+    z-index: -1;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.newroom__media__box h4 {
+    padding-left: 20px;
+    margin-left: 50px;
+    border-left: 2px solid #84BD00;
+    font-size: 14px;
+    font-weight: 700;
+    color: #115740;
+    margin-bottom: 5px;
+}
+
+.newroom__media__box__date {
+    border-top: 1px solid #0000001A;
+    width: 277px;
+    padding: 5px 0;
+    margin-left: auto;
+    font-size: 12px;
+    color: #6E6E6E;
+    margin-bottom: 15px;
+}
+
+.newroom__media__box__desc {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 20px;
+    color: #004F5B;
+}
+
+.newroom__media__box__click {
+    padding: 4px 16px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #0F6B4B;
+}
+
+.newroom__media__box__image {
+    position: absolute;
+    width: 149px;
+    height: 76px;
+    right: -3px;
+    bottom: -3px;
+}
+
+.newroom__media__button {
+    color: #fff;
+    display: block;
+    padding: 15px 31px;
+    background: #0F6B4B;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid #CCC;
+    margin: 0 auto;
+    
+}
+
+.newroom__media__button i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+
+.newroom__confidential {
+    margin-bottom: 104px;
+    background: url(/components/Hub/images/bg__home.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.recent__video__badge{
+   color:#F6B436;
+   background-color: transparent;
+}
+.recent__video__badge::before{
+    display: none;
+}
+.newroom__confidential__inner{
+    display: flex;
+    width: 100% ;
+}
+.recent__outher {
+    border-top: 1px solid #0000001a;
+    position: relative;
+    flex:1;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent__articles__tittle {
+    position: absolute;
+    background: #ffffff;
+    display: flex;
+    padding-left: 3px;
+    gap: 5px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.recent__articles__image{
+    height: 24px;
+}
+.recent__articles__imgage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .recent__articles__node p {
+    color: #283E39;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 15.4px;
+}
+.recent__articles__content h3{
+    border-left: 5px solid #84BD00;
+    padding-left: 15px;
+    margin-bottom: 23px;
+} */
+
+.newroom__know {
+    padding-top: 74px;
+    padding-bottom: 80px;
+}
+
+.newroom__know__top {
+    display:flex;
+    border-radius: 12px;
+    background: #115740;
+    width: 100%;
+    height: auto;
+    margin-bottom: 75px;
+}
+.newroom__know__image {
+    width: 366px;
+    height: 220px;
+}
+
+.newroom__know__node {
+    padding: 67px 72px 0 50px;
+    color: #fff;
+    flex:1;
+}
+.newroom__know__node h2{
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30.4px;
+}
+.newroom__know__node p{
+color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.newroom__know__node a{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.newroom__know__bottom {
+    margin-bottom: 55px;
+    padding-top: 35px;
+    position: relative;
+    border-top: 1px solid #dcdcdc;
+}
+
+.newroom__know__bottom p {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: translateY (-50%);
+}
+
+.newroom__know__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px 10px;
+    margin-bottom: 55px;
+}
+
+.newroom__know__item {
+    display: flex;
+    width: 100%;
+    padding: 6px 0 17px 6px;
+    align-items: center;
+    height: 103px;
+    border-radius: 6px;
+    border-top: 1px solid #F3FFF1;
+    border-right: 1px solid #F3FFF1;
+    border-bottom: 12px solid #F3FFF1;
+    border-left: 1px solid #F3FFF1;
+    background: #FFF;
+}
+
+.newroom__know__logo {
+    width: 100px;
+    height: 80px;
+    margin-right: 16px;
+}
+.newroom__know__logo img{
+    width: 100px;
+    height: 80px;
+}
+
+.newroom__know__item {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3F4444;
+    position: relative;
+}
+
+.newroom__know__detail {
+    position: absolute;
+    padding: 9px 16px 9px 11px;
+    gap: 6.7px;
+    border-radius: 5px;
+    border: 1px solid #F3FFF1;
+    background: #FAF8F4;
+    bottom: 0;
+    transform: translateY(60%);
+    right: 0;
+    line-height: 9px;
+}
+.newroom__know__detail span{
+    color: #115740;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 400;
+
+}
+
+.newroom__know__btn {
+    padding: 15px 30px;
+    background: #0F6B4B;
+    margin: 0 auto;
+    color: #FFFFFF;
+    border-radius: 200px;
+    font-size: 14px;    
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+}
+@media(max-width:767.98px){
+    .newroom__banner__inner{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .newroom__banner{
+        height: auto;
+    }
+   .newroom__banner__text{
+    padding: 15px;
+    text-align: center;
+   }
+   .newroom__banner__text h1{
+    font-size: 45px;
+   }
+    .inner-bg {
+        width: 100%;
+    }
+    .inner-sm{
+        width: 100%;
+    }
+    .newroom__media__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        z-index: 0;
+    }
+    
+    .newroom__media__inner{
+        padding: 0 15px;
+    }
+    .newroom__media__inner h2{
+    position: absolute;
+    top: 0;
+    left: 0;    
+    transform: translateY(-200%);
+    }
+    .newroom__confidential__inner{
+        display: block;
+        width: 100% ;
+    }
+    .recent__video{
+        width: 100%;
+    }
+    .recent__video__badge{
+        color: #F6B436;
+    }
+    .recent__outher{
+        margin-top: 39px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    
+.newroom__know__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 21px 10px;
+    margin-bottom: 55px;
+}
+.newroom__know__image {
+    width: 25%;
+    height: auto;
+}
+.newroom__know__node {
+    padding: 10px 30px;
+    color: #fff;
+    flex:1;
+}
+}
+@media(max-width: 599.98px){
+    .recent__outher{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    
+    .newroom__know__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .newroom__media__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    h1 { font-size: 24px; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 14px; }
+    h4 { font-size: 12px; }
+    h5 { font-size: 10px; }
+    h6 { font-size: 8px; }
+    p {font-size: 10px;}
+}
+
