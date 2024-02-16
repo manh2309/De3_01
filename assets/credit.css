@@ -153,8 +153,8 @@
 }
 
 .credit__review__main {
-    padding: 0 35px;
-    color: #ffffff;
+    padding: 0 34px;
+    color: #fff;
     text-align: center;
     position: relative;
 }
@@ -333,6 +333,7 @@
 }
 
 .credit__resources__btn {
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
     width: 100%;
     border-right: 5px solid rgba(255, 255, 255, 0.75);
