@@ -336,6 +336,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     width: 100%;
+    text-align: left;
     border-right: 5px solid rgba(255, 255, 255, 0.75);
     background: transparent;
     color: rgba(255, 255, 255, 0.75);
