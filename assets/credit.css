@@ -1,5 +1,5 @@
 .credit__banner {
-    background-image: url(/components/Credit/images/banner.png);
+    background-image: url(../components/Credit/images/banner.png);
 }
 
 .credit__banner__inner {
@@ -406,10 +406,6 @@
     line-height: 24px;
     text-decoration-line: underline;
     color: #fff;
-}
-
-.footer__top {
-    background-image: url("/components/Credit/images/footer1.jpg");
 }
 
 @media (max-width: 767.98px) {

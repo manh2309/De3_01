@@ -1,5 +1,5 @@
 .locations__banner {
-    background: url(/components/Locations/images/banner.png);
+    background: url(../components/Locations/images/banner.png);
     display: flex;
 }
 
@@ -113,14 +113,6 @@
     background: #fff;
     padding-top: 24px;
     padding-bottom: 16px;
-}
-
-.award__inner {
-    background: url("/components/Locations/images/img_winning.jpg");
-}
-
-.footer__top {
-    background-image: url("/components/Locations/images/footer1.jpg");
 }
 
 @media (max-width: 767.98px) {
