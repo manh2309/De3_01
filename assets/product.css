@@ -1,7 +1,8 @@
 
 .products__banner {
     background-image: url(/components/Hub/images/bg.png);
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .products__banner__inner {
@@ -44,7 +45,8 @@
     width: 100%;
     background-image: url(/components/Product/images/item__1.jpg);
     background-size: cover;
-    padding: 31px 31px 80px 31px;
+    background-repeat: round;
+    padding: 31px 31px 50px 31px;
 }
 
 .products__content__item h2 {
@@ -87,10 +89,14 @@
     display: flex;
     align-items: center;
     gap: 7px;
+    margin-top: 40px;
 }
 
 .products__content__icon i {
-    font-size: 22px;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid #000000;
 }
 
 .products__content__view a {

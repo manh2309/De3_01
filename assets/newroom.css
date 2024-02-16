@@ -1,5 +1,5 @@
 .newroom__banner {
-    background-image: url(/components/Newroom/images/banner__back.jpg);
+   background-image: url(/components/Newroom/images/newroom__banner__fixxed.jpg);
     height: 593px;
     width: 100%;
     background-size: cover;
@@ -252,6 +252,11 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.recent__video__button{
+    background: #0F6B4B;
+    color: #FFFFFF;
+
+}
 .recent__video__badge{
    color:#F6B436;
    background-color: transparent;
@@ -264,10 +269,10 @@
     width: 100% ;
 }
 .recent__outher {
+    margin-left: 30px;
     border-top: 1px solid #0000001a;
     position: relative;
     flex:1;
-    padding-left: 30px;
     padding-right: 30px;
     padding-top: 60px;
     gap: 31px;
@@ -295,18 +300,6 @@
     object-fit: cover;
 }
 
-/* .recent__articles__node p {
-    color: #283E39;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    line-height: 15.4px;
-}
-.recent__articles__content h3{
-    border-left: 5px solid #84BD00;
-    padding-left: 15px;
-    margin-bottom: 23px;
-} */
 
 .newroom__know {
     padding-top: 74px;
@@ -365,7 +358,7 @@ line-height: 24px;
     top: 0;
     left: 0;
     background: #fff;
-    transform: translateY (-50%);
+    transform: translateY(-50%);
 }
 
 .newroom__know__content {
@@ -377,8 +370,9 @@ line-height: 24px;
 
 .newroom__know__item {
     display: flex;
+
     width: 100%;
-    padding: 6px 0 17px 6px;
+    padding: 6px 32.55px 17px 6px;
     align-items: center;
     height: 103px;
     border-radius: 6px;
@@ -387,6 +381,7 @@ line-height: 24px;
     border-bottom: 12px solid #F3FFF1;
     border-left: 1px solid #F3FFF1;
     background: #FFF;
+    position: relative;
 }
 
 .newroom__know__logo {
@@ -399,11 +394,12 @@ line-height: 24px;
     height: 80px;
 }
 
-.newroom__know__item {
+.newroom__know__item a{
     font-size: 12px;
     line-height: 16px;
+    font-weight: 400;
     color: #3F4444;
-    position: relative;
+    
 }
 
 .newroom__know__detail {
