@@ -5,7 +5,7 @@ body {
 /* about__banner */
 .about__banner {
     background-image: url("../components/About/images/banner.png");
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .about__banner__inner {
@@ -88,7 +88,7 @@ body {
     position: absolute;
     background: #fff;
     top: 0;
-    left: 0;
+    left: 33px;
     transform: translateY(-50%);
 }
 
@@ -499,7 +499,7 @@ body {
 .about__history__content__button {
     padding: 14px 0;
     border-radius: 200px 0px 0px 200px;
-    background: #FFF;
+    background: rgba(239, 237, 232, 0.90);
     color: #0F6B4B;
     font-size: 18px;
     font-weight: 600;
@@ -511,7 +511,7 @@ body {
 }
 
 .about__history__content__button:hover {
-    background: rgba(239, 237, 232, 0.90);
+    background: #FFF;
     transition: 0.3s ease-in-out;
 }
 
@@ -602,6 +602,10 @@ body {
 
     .inner-sm {
         width: 100%;
+    }
+
+    .about__banner {
+        background-size: cover;
     }
 
     .about__banner__inner {
@@ -733,8 +737,24 @@ body {
         padding: 0 10px;
     }
 
+    .about__banner {
+        background-size: cover;
+    }
+
     .about__banner__inner {
         gap: 0;
+    }
+
+    .about__banner__left {
+        margin-right: 0;
+    }
+
+    .about__banner__left p {
+        width: 300px;
+    }
+
+    .about__banner__left :nth-child(4) {
+        width: 300px;
     }
 
     .about__banner__left button {
