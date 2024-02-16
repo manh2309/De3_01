@@ -276,7 +276,7 @@ color: #115740;
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .footer__link {
     display:block;
@@ -284,10 +284,10 @@ color: #115740;
     font-size: 12px;
     font-weight: 700;
     line-height: 22px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .footer__address{
-    padding-left: 15px;
+    padding-left: 20px;
     font-size: 14px;
     line-height: 18px;
 }
@@ -688,6 +688,9 @@ color: #115740;
 }
 .keep__playing__video{
    height: 323px;
+}
+.keep__playing__video__iframe {
+    border-radius: 12px;
 }
 
 
