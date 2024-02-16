@@ -309,7 +309,6 @@
 
 .newroom__know {
     padding-top: 74px;
-    padding-bottom: 80px;
 }
 
 .newroom__know__top {
@@ -367,6 +366,7 @@ line-height: 24px;
     position: absolute;
     top: 0;
     left: 0;
+    text-transform: uppercase;
     background: #fff;
     transform: translateY(-50%);
 }
@@ -423,6 +423,9 @@ line-height: 24px;
     transform: translateY(60%);
     right: 0;
     line-height: 9px;
+}
+.award__winning{
+    padding-top: 0px;
 }
 .newroom__know__detail span{
     color: #115740;
