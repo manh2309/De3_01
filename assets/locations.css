@@ -69,7 +69,7 @@
     border-top: 2px solid #6D6D6D;
     border-bottom: 2px solid #6D6D6D;
     border-left: 2px solid #6D6D6D;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #000 100%), #3F4444;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 50%, #000 100%), #3F4444;
     color: #9FE400;
 }
 
