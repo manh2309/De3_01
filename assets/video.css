@@ -41,7 +41,10 @@
 }
 
 .video__banner__badge {
-    padding: 2px 7px;
+    height:28px;
+    padding:0 8px;
+    
+    line-height:28px;
     border-radius: 6px;
     background: #00973A;
     position: absolute;
@@ -65,10 +68,11 @@
     top: 6px;
     left: 6px;
     display: block;
+    box-sizing: border-box;
     z-index:-1;
 }
 
-.video__seach {
+.video__search {
     background: #fff;
     padding-top: 25px;
 }
