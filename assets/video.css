@@ -43,14 +43,13 @@
 .video__banner__badge {
     height:28px;
     padding:0 8px;
-    
     line-height:28px;
     border-radius: 6px;
     background: #00973A;
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(50%, -50%);
+    right: -7px;
+    transform: translateY(-50%);
     color: #FFF;
     font-size: 12px;
     font-weight: 600;
