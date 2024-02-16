@@ -104,6 +104,9 @@
     font-size: 14px;
     font-weight: 400;
 }
+.header__menu__nav{
+    z-index:99;
+}
 
 .video__search__button {
     padding: 15px 72px;
