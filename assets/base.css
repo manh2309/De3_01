@@ -186,6 +186,13 @@ color: #115740;
         .header__nav {
             display: none;
         }
+        .desktop {
+            display: none;
+        }
+    
+        .header__menu:hover .tablet {
+            display: block;
+        }
 }
                  
 @media (max-width: 599.98px) {
@@ -209,7 +216,7 @@ color: #115740;
 /* footer top*/
 .footer__top{
     padding: 65px 0 60px 0;
-    background-image: url("/images/footer1.jpg");
+    background-image: url("../components/Common/images/footer1.jpg");
 }
 .footer__inner{
     position: relative;
@@ -901,6 +908,7 @@ color: #115740;
         width: 100%;
       }
     .top {
+        bottom: 10px;
         line-height: 10px;
         text-align: center;
         display: inherit;
