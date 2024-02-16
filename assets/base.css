@@ -689,6 +689,9 @@ color: #115740;
 .keep__playing__video{
    height: 323px;
 }
+.keep__playing__video__iframe {
+    border-radius: 12px;
+}
 
 
 @media (max-width: 767.98px) {
