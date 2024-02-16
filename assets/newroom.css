@@ -1,5 +1,5 @@
 .newroom__banner {
-    background-image: url(/components/Newroom/images/banner__back.jpg);
+   background-image: url(/components/Newroom/images/newroom__banner__fixxed.jpg);
     height: 593px;
     width: 100%;
     background-size: cover;
@@ -237,6 +237,7 @@
     border-radius: 7px;
     border: 1px solid #CCC;
     margin: 0 auto;
+    margin-top: 33px;
     
 }
 
@@ -244,13 +245,23 @@
     font-size: 12px;
     margin-left: 4px;
 }
-
+.award__header{
+    width: 780px;
+}
+.award__header h2{
+    width: 447px;
+}
 
 .newroom__confidential {
     margin-bottom: 104px;
     background: url(/components/Hub/images/bg__home.png);
     background-repeat: no-repeat;
     background-position: bottom;
+}
+.recent__video__button{
+    background: #0F6B4B;
+    color: #FFFFFF;
+
 }
 .recent__video__badge{
    color:#F6B436;
@@ -264,11 +275,11 @@
     width: 100% ;
 }
 .recent__outher {
+    margin-left: 30px;
     border-top: 1px solid #0000001a;
     position: relative;
     flex:1;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-right: 30px;
     padding-top: 60px;
     gap: 31px;
     display: flex;
@@ -295,22 +306,9 @@
     object-fit: cover;
 }
 
-/* .recent__articles__node p {
-    color: #283E39;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    line-height: 15.4px;
-}
-.recent__articles__content h3{
-    border-left: 5px solid #84BD00;
-    padding-left: 15px;
-    margin-bottom: 23px;
-} */
 
 .newroom__know {
     padding-top: 74px;
-    padding-bottom: 80px;
 }
 
 .newroom__know__top {
@@ -324,6 +322,10 @@
 .newroom__know__image {
     width: 366px;
     height: 220px;
+}
+.newroom__know__image img{
+    border-top-left-radius:12px;
+    border-bottom-left-radius: 12px;
 }
 
 .newroom__know__node {
@@ -364,8 +366,9 @@ line-height: 24px;
     position: absolute;
     top: 0;
     left: 0;
+    text-transform: uppercase;
     background: #fff;
-    transform: translateY (-50%);
+    transform: translateY(-50%);
 }
 
 .newroom__know__content {
@@ -377,8 +380,9 @@ line-height: 24px;
 
 .newroom__know__item {
     display: flex;
+
     width: 100%;
-    padding: 6px 0 17px 6px;
+    padding: 6px 32.55px 17px 6px;
     align-items: center;
     height: 103px;
     border-radius: 6px;
@@ -387,6 +391,7 @@ line-height: 24px;
     border-bottom: 12px solid #F3FFF1;
     border-left: 1px solid #F3FFF1;
     background: #FFF;
+    position: relative;
 }
 
 .newroom__know__logo {
@@ -399,11 +404,12 @@ line-height: 24px;
     height: 80px;
 }
 
-.newroom__know__item {
+.newroom__know__item a{
     font-size: 12px;
     line-height: 16px;
+    font-weight: 400;
     color: #3F4444;
-    position: relative;
+    width: 244px; 
 }
 
 .newroom__know__detail {
@@ -417,6 +423,9 @@ line-height: 24px;
     transform: translateY(60%);
     right: 0;
     line-height: 9px;
+}
+.award__winning{
+    padding-top: 0px;
 }
 .newroom__know__detail span{
     color: #115740;

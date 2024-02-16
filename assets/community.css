@@ -79,7 +79,7 @@
 
 .community__said__content {
     color: #283E39;
-    width: 472.5px;
+    width: 473px;
 }
 
 .community__said__content p {
@@ -280,8 +280,8 @@
     background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
     background-image: url(/components/Community/images/bg__box1.jpg);
     background-color: lightgray;
-    background-position: 0px -1.086px;
-    background-size: 100% 104%;
+    /* background-position: 0px -70.086px;
+    background-size: 100% 128.19%; */
     background-repeat: no-repeat;
 }
 
@@ -289,8 +289,9 @@
     background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
     background-image: url(/components/Community/images/bg__box2.jpg);
     background-color: lightgray;
-    background-position: 0px -70.086px;
-    background-size: 100% 128.19%;
+    /* background-position: 0px -70.086px;
+    background-size: 100% 128.19%; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #FAF8F4;
 }

@@ -5,16 +5,14 @@
     padding: 100px 0;
 }
 
-.calculators__banner__inner {
-    padding: 15px 0 0 42px;
-}
+
 
 .calculators__banner__content {
     width: 768px;
     color: #fff;
 }
 
-.calculators__banner__inner h1 {
+.calculators__banner__content h1 {
     border-left: 5px solid #84BD00;
     padding-left: 15px;
     margin-bottom: 30px;
@@ -24,6 +22,10 @@
     line-height: 80px;
     margin-top: 24px;
     margin-bottom: 52px;
+}
+
+.calculators__banner__inner{
+    margin-bottom: 18px;
 }
 
 
@@ -93,6 +95,7 @@
     font-weight: 400;
     line-height: 15.4px;
     margin-bottom: 37px;
+    text-transform: uppercase;
 }
 
 .calculators__content__item p {
