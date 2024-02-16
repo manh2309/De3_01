@@ -458,6 +458,7 @@ body {
 .about__youtube__items__job {
     color: #283E39;
     text-align: center;
+    font-style: italic;
     font-size: 12px;
     line-height: 14px;
 }
@@ -533,16 +534,14 @@ body {
 
 .about__history__content__right {
     width: 75%;
-    /* height: 200px; */
     height: fit-content;
     border-radius: 12px;
     background: #FFF;
-    box-shadow: 1px 1px 6px -3px #000;
+    box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.15);
     padding: 26px 0 45px 30px;
 }
 
 .about__history__content__right p {
-    /* width: 58%; */
     width: 506.95px;
     color: #283E39;
     font-family: "Open Sans";
