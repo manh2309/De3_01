@@ -72,9 +72,9 @@
     z-index:-1;
 }
 
-.video__search {
+.video__seach {
     background: #fff;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .video__search__label {
@@ -103,6 +103,9 @@
     color: #999;
     font-size: 14px;
     font-weight: 400;
+}
+.header__menu__nav{
+    z-index:99;
 }
 
 .video__search__button {
