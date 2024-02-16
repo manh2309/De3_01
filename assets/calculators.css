@@ -93,6 +93,7 @@
     font-weight: 400;
     line-height: 15.4px;
     margin-bottom: 37px;
+    text-transform: uppercase;
 }
 
 .calculators__content__item p {
