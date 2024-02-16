@@ -237,6 +237,7 @@
     border-radius: 7px;
     border: 1px solid #CCC;
     margin: 0 auto;
+    margin-top: 33px;
     
 }
 
@@ -244,7 +245,12 @@
     font-size: 12px;
     margin-left: 4px;
 }
-
+.award__header{
+    width: 780px;
+}
+.award__header h2{
+    width: 447px;
+}
 
 .newroom__confidential {
     margin-bottom: 104px;
@@ -273,7 +279,7 @@
     border-top: 1px solid #0000001a;
     position: relative;
     flex:1;
-    padding-right: 30px;
+    margin-right: 30px;
     padding-top: 60px;
     gap: 31px;
     display: flex;
@@ -317,6 +323,10 @@
 .newroom__know__image {
     width: 366px;
     height: 220px;
+}
+.newroom__know__image img{
+    border-top-left-radius:12px;
+    border-bottom-left-radius: 12px;
 }
 
 .newroom__know__node {
@@ -399,6 +409,7 @@ line-height: 24px;
     line-height: 16px;
     font-weight: 400;
     color: #3F4444;
+    width: 244px;
     
 }
 
