@@ -193,6 +193,10 @@ color: #115740;
         .header__menu:hover .tablet {
             display: block;
         }
+        /* cần chỉnh sửa help */
+        .header__menu:hover .tablet ~.top {
+            display: none;
+          }
 }
                  
 @media (max-width: 599.98px) {
