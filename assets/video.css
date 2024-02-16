@@ -129,6 +129,7 @@
 }
 
 .video__content__article {
+    margin-bottom: 16px;
     display: flex;
     margin-bottom: 6px;
     align-items: center;
@@ -184,6 +185,8 @@
 .video__content__youtube__list {
     height: 383px;
     position: relative;
+    border: 1px solid #F1F1F1;
+    border-radius: 12px;
 }
 
 .video__content__list__image {
@@ -242,7 +245,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 4px 2px;
+    gap: 2px 4px;
 }
 
 .video__content__tittle__item a {
@@ -255,9 +258,6 @@
     font-weight: 600;
 }
 
-.video__content__tittle__item a:not(:last-child){
-    margin-right: 4px;
-}
 
 .video__content__next {
     display: flex;
