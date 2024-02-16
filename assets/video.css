@@ -40,6 +40,10 @@
     position: relative;
 }
 
+.video__banner__youtube iframe {
+    border-radius: 12px;
+}
+
 .video__banner__badge {
     height:28px;
     padding:0 8px;
