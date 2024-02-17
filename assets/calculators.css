@@ -5,6 +5,9 @@
     padding: 100px 0;
 }
 
+.calculators__banner__inner{
+    margin-bottom: 18px;
+}
 
 
 .calculators__banner__content {
@@ -24,15 +27,12 @@
     margin-bottom: 52px;
 }
 
-.calculators__banner__inner{
-    margin-bottom: 18px;
-}
 
 
-.calculators__banner__inner p {
-    font-style: normal;
+.calculators__banner__content p {
     font-weight: 500;
     line-height: 24px;
+    font-size: 16px;
 }
 
 .calculators__banner__text {
@@ -94,7 +94,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 15.4px;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
     text-transform: uppercase;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .calculators__content__bot {
-    padding: 36px 56px 51px 31px;
+    padding: 36px 54px 51px 31px;
     border: 1px solid #C4D4C9;
     background: rgba(255, 255, 255, 0.70);
 }
