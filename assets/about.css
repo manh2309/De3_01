@@ -73,7 +73,6 @@ body {
 
 /* about__awards */
 .about__awards {
-    /* padding-top: 68px; */
     padding-bottom: 66px;
 }
 
@@ -172,7 +171,6 @@ body {
     width: 290px;
     height: 316px;
     position: relative;
-    /* overflow: hidden; */
     padding: 60px 24px 0 24px;
     text-align: center;
 }
@@ -359,6 +357,10 @@ body {
     width: 551px;
 }
 
+.about__service__top__content :nth-child(2) {
+    margin-top: 31px;
+}
+
 .about__service__top__content h3 {
     font-size: 36px;
     position: absolute;
@@ -368,10 +370,6 @@ body {
 
 .about__service__top__content span {
     color: #00973A;
-}
-
-.about__service__top__content :nth-child(2) {
-    margin-top: 31px;
 }
 
 .about__service__top__content p {
@@ -554,7 +552,6 @@ body {
 
 /* about__careers */
 .about__careers {
-    /* opacity: 0.3; */
     background: url("../components/About/images/about-careers-bg.png"), lightgray 672px 26px / 30% 91.975% no-repeat;
     padding-top: 219px;
     padding-bottom: 226px;
