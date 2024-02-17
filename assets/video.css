@@ -345,11 +345,12 @@
     border-radius: 50px;
     background: #FFA600;
     color: #000;
-    padding: 15px 29.627px 15px 30px;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
-    line-height: 20px;
+    width:172px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
 }
 
 @media (max-width: 899.98px) {
@@ -394,9 +395,4 @@
     .video__banner__badge {
         transform: translate(0px, -50%);
     }
-}
-
-
-.header__menu:hover .top{
-    display: none !important;
 }
