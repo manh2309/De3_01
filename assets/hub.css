@@ -267,7 +267,7 @@
 
 .hub__additional__seach input::placeholder {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: rgba(40, 62, 57, 0.50);
     font-family: 'Montserrat', sans-serif;
 }

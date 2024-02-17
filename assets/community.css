@@ -280,7 +280,7 @@
     background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
     background-image: url(/components/Community/images/bg__box1.jpg);
     background-color: lightgray;
-    background-position: 0px 1.914px;
+    background-position: 0px -1.086px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -289,11 +289,9 @@
     background: linear-gradient(180deg, rgba(0, 79, 91, 0.80) 0%, #00263E 100%);
     background-image: url(/components/Community/images/bg__box2.jpg);
     background-color: lightgray;
-    /* background-position: 0px -70.086px;*/
+    background-position: 0px -1.086px;
     background-size: 100%;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #FAF8F4;
 }
 
 .community__box__item__inner {
