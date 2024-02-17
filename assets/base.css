@@ -192,6 +192,7 @@ color: #115740;
     
         .header__menu:hover .tablet {
             display: block;
+            z-index: 5;
         }
 }
                  
