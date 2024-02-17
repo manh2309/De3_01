@@ -1,5 +1,5 @@
 .credit__banner {
-    background-image: url(/components/Credit/images/banner.png);
+    background-image: url(../components/Credit/images/banner.png);
 }
 
 .credit__banner__inner {
@@ -153,8 +153,8 @@
 }
 
 .credit__review__main {
-    padding: 0 35px;
-    color: #ffffff;
+    padding: 0 34px;
+    color: #fff;
     text-align: center;
     position: relative;
 }
@@ -333,8 +333,10 @@
 }
 
 .credit__resources__btn {
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
     width: 100%;
+    text-align: left;
     border-right: 5px solid rgba(255, 255, 255, 0.75);
     background: transparent;
     color: rgba(255, 255, 255, 0.75);
@@ -348,7 +350,7 @@
     border-right: 5px solid #84BD00;
     background: #FFF;
     color: #3F4444;
-    font-weight: 700;
+    font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
 
@@ -405,10 +407,6 @@
     line-height: 24px;
     text-decoration-line: underline;
     color: #fff;
-}
-
-.footer__top {
-    background-image: url("/components/Credit/images/footer1.jpg");
 }
 
 @media (max-width: 767.98px) {
